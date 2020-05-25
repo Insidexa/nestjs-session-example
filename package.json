@@ -26,13 +26,17 @@
     "@nestjs/platform-express": "^7.0.9",
     "@types/express-session": "^1.17.0",
     "@types/passport": "^1.0.3",
+    "connect-redis": "^4.0.4",
     "express-session": "^1.17.1",
+    "ioredis": "^4.16.3",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
+    "redis": "^3.0.2",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.5.5"
+    "rxjs": "^6.5.5",
+    "uuid": "^8.0.0"
   },
   "devDependencies": {
     "@nestjs/testing": "^7.0.9",

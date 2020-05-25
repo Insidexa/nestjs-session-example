@@ -9,3 +9,6 @@ services:
     volumes:
       - ./:/var/www
     command: npm run start:dev
+
+  redis:
+    image: redis

@@ -6,7 +6,7 @@ import { SessionGuard } from './auth/session-guard';
 import { SessionAuthGuard } from './auth/session-auth-guard';
 import { AuthService } from './auth-service';
 import { LocalStrategy } from './auth/local-strategy';
-import { SessionStore } from './auth/session-store';
+import { CustomRedisStore } from './auth/custom-redis-store.service';
 
 @Module({
     imports: [],
@@ -20,7 +20,7 @@ import { SessionStore } from './auth/session-store';
         CookieSerializer,
         SessionGuard,
         LocalStrategy,
-        SessionStore,
+        CustomRedisStore,
     ],
 })
 export class AppModule {
