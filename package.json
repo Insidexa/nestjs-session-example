@@ -30,7 +30,7 @@
     "express-session": "^1.17.1",
     "ioredis": "^4.16.3",
     "passport": "^0.4.1",
-    "passport-jwt": "^4.0.0",
+    "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
     "redis": "^3.0.2",
     "reflect-metadata": "^0.1.13",
